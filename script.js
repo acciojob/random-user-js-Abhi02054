@@ -45,4 +45,18 @@ ageButton.addEventListener('click', () => {
   emailParagraph.style.display = 'none';
   phoneParagraph.style.display = 'none';
   additionalInfo.style.display = 'block';
+});
 
+emailButton.addEventListener('click', () => {
+  ageParagraph.style.display = 'none';
+  emailParagraph.style.display = 'block';
+  phoneParagraph.style.display = 'none';
+  additionalInfo.style.display = 'block';
+});
+
+phoneButton.addEventListener('click', () => {
+  ageParagraph.style.display = 'none';
+  emailParagraph.style.display = 'none';
+  phoneParagraph.style.display = 'block';
+  additionalInfo.style.display = 'block';
+});
