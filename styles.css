@@ -1,2 +1,17 @@
+.user {
+  text-align: center;
+}
 
-/* Your CSS Code here. */
+.user img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.additional-info {
+  display: none;
+}
+
+.additional-info h3 {
+  margin-top: 0;
+}
